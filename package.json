@@ -5,9 +5,12 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@module-federation/utilities": "^3.0.0",
     "@swc/helpers": "~0.5.2",
+    "path-browserify": "^1.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-router-dom": "6.11.2",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -19,6 +22,7 @@
     "@nx/jest": "17.2.0",
     "@nx/js": "17.2.0",
     "@nx/react": "17.2.0",
+    "@nx/web": "17.2.0",
     "@nx/webpack": "17.2.0",
     "@nx/workspace": "17.2.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
